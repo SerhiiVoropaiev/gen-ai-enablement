@@ -1,0 +1,68 @@
+.gen-ai-enablement-education__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gen-ai-enablement-education {
+    background: var(--blue-deep-color);
+    padding: 120px 0;
+}
+
+.gen-ai-enablement-education__wrap__content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.gen-ai-enablement-education__item-list {
+    margin: 0 16px;
+}
+
+.gen-ai-enablement-education__item {
+    list-style-type: disc;
+    color: var(--light-100-color);
+    margin-bottom: 4px;
+}
+
+.gen-ai-enablement-education__header-h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--light-100-color);
+}
+
+.gen-ai-enablement-education__content {
+    text-align: center;
+    max-width: 960px;
+    color: var(--light-70-color);
+    margin-bottom: 80px;
+}
+
+.gen-ai-enablement-education_icon {
+    max-width: 80px;
+    margin-bottom: 16px;
+}
+
+.gen-ai-enablement-education__content-description {
+    color: var(--light-70-color);
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.gen-ai-enablement-education__content-header-h4 {
+    max-width: 100%;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+
+@media (min-width: 968px) {
+    .gen-ai-enablement-education__wrap__content-item{
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        align-items: flex-start;
+        max-width: 640px;
+    }
+}
