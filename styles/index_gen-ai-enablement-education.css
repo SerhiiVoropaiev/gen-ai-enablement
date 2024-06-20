@@ -25,6 +25,15 @@
     color: var(--light-100-color);
     margin-bottom: 4px;
 }
+.gen-ai-enablement-education__item__italic-wrap{
+    margin-top: 20px;
+}
+.gen-ai-enablement-education__item__italic{
+    font-style: italic;
+    color: var(--light-80-color);
+    font-weight: 200;
+    margin-bottom: 4px;
+}
 
 .gen-ai-enablement-education__header-h2 {
     text-align: center;
