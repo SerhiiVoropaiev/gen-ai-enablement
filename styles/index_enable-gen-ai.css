@@ -24,6 +24,11 @@
     gap: 24px;
 }
 
+.enable-gen-ai__content-bold{
+    font-weight: 600;
+    color: var(--dark-deep-color);
+}
+
 
 @media (min-width: 768px) {
     .enable-gen-ai__wrap {
