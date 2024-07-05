@@ -5,7 +5,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     let modalText = document.getElementById("modal-text");
 
     // Эта функция из EmailJS отправит данные формы
-    emailjs.sendForm('service_snx3yur', 'template_f1ban5t', this)
+    emailjs.sendForm('service_snx3yur', 'template_ui9srun', this)
         .then(function () {
             modalText.innerHTML = 'Your request has been successfully sent';
             modal.style.display = "block";
